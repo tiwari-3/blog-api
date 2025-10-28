@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get("/test", function(){
     return ["name"=>"Mayank Tiwari", "channel" => "Code step by step"];
 });
+
+Route::get("/test", function(){
+    return ["name"=>"Mayank Tiwari", "channel" => "Code step by step"];
+});
